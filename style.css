@@ -1,0 +1,132 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    position: fixed;
+    margin:20px;
+    color:darkred;
+    font-size: 3vw;
+    font-family: Georgia, serif;
+    font-style: italic;
+    transition: transform 0.3s ease; 
+    display: flex;
+    flex-direction: row;
+  }
+  header:hover {
+    transform: scale(1.03);
+  }
+  header img {
+    width: 4vw;
+    height: auto; 
+  }
+  
+  footer {
+    position: fixed;
+    bottom:0;
+    font-size: 1vw;
+    font-family:Verdana, sans-serif;
+    margin: 20px;
+    transition: transform 0.3s ease; 
+  }
+  footer:hover {
+    transform: scale(1.03);
+  }
+  
+  a {
+    color: #000000;
+    text-decoration: none;
+  }
+
+ /* search bar and content  */
+ body {
+  font-family: Verdana, sans-serif;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+  div {
+    display: flex;
+    align-items: center;
+  }
+
+#food-input {
+  padding: 10px;
+  border: dotted #000000;
+  border-radius: 5px;
+  font-size: 1vw;
+  width: 200px;
+  transition: border-color 0.3s;
+  margin:4px;
+  margin-top: 11vw;
+}
+
+#fetch-food {
+  padding: 10px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1vw;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin:4px;
+  margin-top: 11vw;
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+#food-info {
+  font-family: Georgia, serif;
+  font-style: italic;
+  color: darkred;
+  font-size: 2vw;
+  display: flex;
+  flex-direction: column;
+  border: 5px dotted darkred;
+  border-radius: 40px;
+
+    height: 30vw;
+    width: 22vw;
+    padding: 15px;
+}
+#cuisine-info {
+  font-family: Georgia, serif;
+  font-style: italic;
+  color: darkred;
+  font-size: 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border: 5px dotted darkred;
+  border-radius: 40px;
+
+    height: 30vw;
+    width: 30vw;
+    padding: 15px;
+
+}
+img {
+  width: 70%;
+  max-height: 28vw;
+  border-radius: 8px;
+}
+
+h2 {
+  font-size: 3vw;}
+
+h3 {
+  font-size: 1.2vw;}
